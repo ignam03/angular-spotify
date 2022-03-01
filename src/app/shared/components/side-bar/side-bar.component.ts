@@ -41,7 +41,7 @@ export class SideBarComponent implements OnInit {
       },
       {
         name: 'Canciones que te gustan ',
-        icon: 'uil -heart-medical'
+        icon: 'uil-heart-medical'
       }
     ]
 

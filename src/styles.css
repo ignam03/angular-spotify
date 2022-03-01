@@ -7,32 +7,32 @@
   --color-4: #ffffff;
   --color-5: #181818;
   --font-size-1: 1rem;
-  --font-size-1: 1.2rem;
-  --font-size-1: 1.8rem;
+  --font-size-2: 1.2rem;
+  --font-size-3: 2rem;
   --shadow-1: rgb(0 0 0 / 35%) 0px 8px 24px;
   --shadow-2: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  --border-radius-1: .25rem;
-  --border-radius-2: .5rem;
-  --font-family-1: 'Poppins', san-serif;
+  --border-radius-1: 0.25rem;
+  --border-radius-2: 0.5rem;
+  --font-family-1: "Poppins", san-serif;
   --animation-1: 200ms;
 }
 
 html,
-body{
-    margin: 0;
-    padding: 0;
-    background-color: var(--color-3);
-    font-family: var(--font-family-1);
-    font-size: var(--font-size-1);
-    color: var(--color-4);
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-3);
+  font-family: var(--font-family-1);
+  font-size: var(--font-size-3);
+  color: var(--color-4);
 }
 
 input,
-button{
-    cursor: pointer;
-    font-family: var(--font-family-1);
+button {
+  cursor: pointer;
+  font-family: var(--font-family-1);
 }
 
-button:disabled{
-    opacity: .5;
+button:disabled {
+  opacity: 0.5;
 }
